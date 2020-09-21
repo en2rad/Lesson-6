@@ -1,0 +1,124 @@
+@media (max-width: 767px) {
+    .header__logo {
+        font-size: calc(24px + 27.2 * ((100vw - 320px) / 1280));
+    }
+
+    .header__link {
+        font-size: calc(16px + 3.4 * ((100vw - 320px) / 1280));
+    }
+
+    .promo__title {
+        font-size: calc(24px + 34 * ((100vw - 320px) / 1280));
+    }
+
+    .promo__btn {
+        font-size: calc(14px + 27.2 * ((100vw - 320px) / 1280));
+    }
+
+    .main__title {
+        font-size: calc(20px + 17 * ((100vw - 320px) / 1280));
+    }
+
+    .main__text {
+        font-size: calc(14px + 1 * ((100vw - 320px) / 1280));
+    }
+
+    .testimonial__review {
+        font-size: calc(14px + 6.8 * ((100vw - 320px) / 1280));
+    }
+
+    .footer__copyright {
+        font-size: calc(14px + 1 * ((100vw - 320px) / 1280))
+    }
+}
+
+@media (min-width: 767px) {
+    .header__logo {
+        font-size: calc(24px + 16 * (100vw / 1280));
+    }
+
+    .header__link {
+        font-size: calc(16px + 2 * (100vw / 1280));
+    }
+
+    .promo__title {
+        font-size: calc(24px + 20 * (100vw / 1280));
+    }
+
+    .promo__btn {
+        font-size: calc(14px + 16 * (100vw / 1280));
+    }
+
+    .main__title {
+        font-size: calc(20px + 10 * (100vw / 1280));
+    }
+
+    .main__text {
+        font-size: calc(14px + 1 * (100vw / 1280));
+    }
+
+    .testimonial__review {
+        font-size: calc(14px + 4 * (100vw / 1280));
+    }
+
+    .footer__copyright {
+        font-size: calc(14px + 1 * (100vw / 1280));
+    }
+}
+
+
+
+
+
+@media (max-width: 767px) {
+    .header__burger {
+      display: flex;
+    }
+  
+    .header__nav {
+      position: absolute;
+      top: 100px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      height: 0;
+      background: #4d98a3;
+    }
+  
+    .header__link {
+      width: 100%;
+      margin: 0;
+      padding: 10px 15px;
+    }
+  }
+  @media (max-width: 767px) and (max-width: 767px) {
+    .header__link {
+      font-size: calc(16px + 6.8 * ((100vw - 320px) / 1280));
+    }
+  }
+  @media (max-width: 767px) and (min-width: 767px) {
+    .header__link {
+      font-size: calc(16px + 4 * (100vw / 1280));
+    }
+  }
+  @media (max-width: 767px) {
+    .header__link:after {
+      display: none;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .testimonial__pic-wrap {
+      align-self: start;
+      margin-bottom: 62px;
+    }
+  }
+
+
+  @media (max-width: 440px) {
+    .form {
+      margin: 0 -5px 0 -5px;
+      padding-top: 15px;
+      border-radius: 5px;
+    }
+  }
