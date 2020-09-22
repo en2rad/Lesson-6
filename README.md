@@ -1,4 +1,4 @@
-https://en2rad.github.io/Lesson-6/. 
+https://en2rad.github.io/lesson-6/. 
 
 # Домашнее задание к уроку 6
 
