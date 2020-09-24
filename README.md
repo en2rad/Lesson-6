@@ -1,4 +1,6 @@
-https://en2rad.github.io/lesson-6/. 
+[Watch task](https://en2rad.github.io/black-sea/)
+
+https://en2rad.github.io/black-sea/
 
 # Домашнее задание к уроку 6
 
