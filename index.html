@@ -4,31 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Sea</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
     <link href="https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="wrap">
+    <div class="wrap">  
         <header class="header">
             <div class="container">
                 <h1 class="header__logo">
-                    <a href="" class="header__logo-link">Black Sea</a>
+                    <a href="#" class="header__logo-link">Black Sea</a>
                 </h1>
-                
-                <div class="header__menu">
-                    <input type="checkbox" id="checkbox" class="header__checkbox">
-                    <label for="checkbox" class="header__burger">
-                        <div class="header__menu-icon"></div>
-                    </label>
-
-                    <nav class="header__nav">
-                        <a class="header__link" href="#">Home</a>
-                        <a class="header__link" href="#">About me</a>
-                        <a class="header__link" href="#">Portfolio</a>
-                        <a class="header__link" href="#">Contact me</a>
-                    </nav>
-                </div> 
+                <div class="header__burger">
+                    <div class="header__menu-icon"></div>
+                </div>
+                <nav class="header__nav">
+                    <a class="header__link" href="#">Home</a>
+                    <a class="header__link" href="#">About me</a>
+                    <a class="header__link" href="#">Portfolio</a>
+                    <a class="header__link" href="#">Contact me</a>
+                </nav> 
             </div>
         </header> <!-- ./ header -->
 
@@ -39,7 +34,7 @@
                 <ul class="promo__list">
                     <li class="promo__item"></li>
                     <li class="promo__item"></li>
-                    <li class="promo__item promo__item--active"></li>
+                    <li class="promo__item"></li>
                     <li class="promo__item"></li>
                     <li class="promo__item"></li>
                 </ul>
@@ -63,17 +58,17 @@
                 </p>
 
                 <div class="main__list-icons">
-                    <div class="main__icon"></div>
-                    <div class="main__icon"></div>
-                    <div class="main__icon"></div>
+                    <div class="main__icon main__icon--basket"></div>
+                    <div class="main__icon main__icon--globe"></div>
+                    <div class="main__icon main__icon--suitcase"></div>
                 </div>
             </div>
-        </main> <!-- ./ main -->
+        </main> <!-- ./ main -->    
 
         <div class="testimonial">
             <div class="container">
-                <div class="testimonial__pic-wrap">
-                    <img class="testimonial__dhavan" src="./img/dhavan.png" alt="dhavan">
+                <div class="testimonial__header">
+                    <img class="testimonial__img" src="./img/dhavan.png" alt="dhavan">
                 </div>   
                 <blockquote class="testimonial__review">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
